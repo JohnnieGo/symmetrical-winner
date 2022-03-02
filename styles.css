@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(232, 220, 184);
+    height: 400vh;
+    font-family: 'Mulish', sans-serif;
+     
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    }
+
+.page{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height:100vh;
+    width:65vh;
+    background-image: url(/bcgrndimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.header{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+.hipolit{
+    transform: rotate(-60deg);
+    width: 95vh;
+    border-top: 0.2vh solid black;
+    border-bottom: 0.2vh solid black;
+    position: absolute;
+    left: -15vh;
+    bottom: 45vh;
+    text-align: center;
+}
+
+.hh{
+    font-family: 'Spectral SC', serif;
+    font-size: 8VH;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 4vh;
+}
+
+.hp{
+    font-size: 3vh;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.hpu{
+    margin-bottom: -3vh;
+}
+
+.hpd{
+    margin-top: -3vh;
+    transform: rotate(180deg);
+}
+
+.date{
+    position: absolute;
+    width: 100%;
+    font-size: 2vh;
+    text-align: center;
+
+}
+
+.leftcontainer{
+    position: absolute;
+    height: 80vh;
+    width: 40vh;
+}
+
+.h2{
+    text-align: center;
+    margin-top: 7vh;
+    margin-bottom: 0px;
+    font-family: 'Spectral SC', serif;
+    letter-spacing: -0.2vh;
+    font-size: 3vh;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.h3{
+    font-family: 'League Gothic', sans-serif;
+    font-size: 3vh;
+    margin-top: 2vh;
+    letter-spacing: 0.1vh;
+    text-align: center;
+    margin-bottom: 0px;
+    letter-spacing: 0.3vh;
+}
+
+.h2s{
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Spectral SC', serif;
+    letter-spacing: -0.1vh;
+    font-size: 2vh;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.incontainer{
+    position: absolute;
+    height: 55vh;
+    width: 33vh;
+    margin: none;
+}
+
+.h5{
+    font-family: 'Spectral SC', serif;
+    text-align: center;
+    font-size: 2vh;
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
+
+}
+
+.h6{
+
+    font-size: 1.8vh;
+    font-family: 'Brygada 1918', serif;
+    font-weight: 400;
+    line-height: 3vh;
+    margin-top: 1.5vh;
+    margin-bottom: 0;
+    text-align-last: center;
+}
+
+
+
+.h7{
+    font-size: 1.8vh;
+    font-family: 'Brygada 1918', serif;
+    font-weight: 400;
+    line-height: 3vh;
+    margin-top: 0vh;
+    margin-bottom: 0;
+    margin-left: 2vh;
+    word-spacing: 0.05vh;
+}
+
+.h8{
+    font-size: 1.8vh;
+    font-family: 'Brygada 1918', serif;
+    font-weight: 400;
+    line-height: 3vh;
+    margin-top: 0vh;
+    margin-bottom: 0;
+    margin-left: 2vh;
+    word-spacing: 0.05vh;
+}
+
+.h9{
+    font-size: 1.8vh;
+    font-family: 'Brygada 1918', serif;
+    font-weight: 400;
+    line-height: 3vh;
+    margin-top: 0vh;
+    margin-bottom: 0;
+    margin-left: 2vh;
+    word-spacing: 0.05vh;
+}
+
+.h10{
+    font-size: 1.3vh;
+    font-family: 'Brygada 1918', serif;
+    font-weight: 400;
+    line-height: 3vh;
+    margin-top: 0vh;
+    margin-bottom: 0;
+    margin-left: 2vh;
+    word-spacing: 0.05vh;
+}
+
+.h11{
+    font-size: 2vh;
+    font-family: 'Brygada 1918', serif;
+    font-weight: 400;
+    line-height: 3vh;
+    margin-top: 0vh;
+    margin-bottom: 0;
+    margin-left: 2vh;
+    word-spacing: 0.05vh;
+}
+
+.rightcontainer{
+    position: absolute;
+    transform: rotate(180deg);
+    right: 2vh;
+    bottom: 0.5vh;
+}
+
+.h6s{
+    font-size: 1.8vh;
+    font-family: 'Brygada 1918', serif;
+    font-weight: 400;
+    line-height: 3vh;
+    margin-top: 0vh;
+    margin-bottom: 0;
+    margin-left: 2vh;
+    word-spacing: 0.05vh;
+}
+
+#button{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color: transparent;
+    border: 0ch;
+}
